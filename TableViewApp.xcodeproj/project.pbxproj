@@ -13,6 +13,8 @@
 		A5F32FCE28FBDD4200B7D346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F32FCC28FBDD4200B7D346 /* Main.storyboard */; };
 		A5F32FD028FBDD4400B7D346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F32FCF28FBDD4400B7D346 /* Assets.xcassets */; };
 		A5F32FD328FBDD4400B7D346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F32FD128FBDD4400B7D346 /* LaunchScreen.storyboard */; };
+		A5F32FDB28FBE58B00B7D346 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F32FDA28FBE58B00B7D346 /* TableViewController.swift */; };
+		A5F32FDD28FBF5AF00B7D346 /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F32FDC28FBF5AF00B7D346 /* AddListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A5F32FCF28FBDD4400B7D346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F32FD228FBDD4400B7D346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5F32FD428FBDD4400B7D346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F32FDA28FBE58B00B7D346 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A5F32FDC28FBF5AF00B7D346 /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				A5F32FC628FBDD4200B7D346 /* AppDelegate.swift */,
 				A5F32FC828FBDD4200B7D346 /* SceneDelegate.swift */,
+				A5F32FDA28FBE58B00B7D346 /* TableViewController.swift */,
 				A5F32FCA28FBDD4200B7D346 /* ViewController.swift */,
 				A5F32FCC28FBDD4200B7D346 /* Main.storyboard */,
+				A5F32FDC28FBF5AF00B7D346 /* AddListViewController.swift */,
 				A5F32FCF28FBDD4400B7D346 /* Assets.xcassets */,
 				A5F32FD128FBDD4400B7D346 /* LaunchScreen.storyboard */,
 				A5F32FD428FBDD4400B7D346 /* Info.plist */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F32FCB28FBDD4200B7D346 /* ViewController.swift in Sources */,
+				A5F32FDD28FBF5AF00B7D346 /* AddListViewController.swift in Sources */,
 				A5F32FC728FBDD4200B7D346 /* AppDelegate.swift in Sources */,
 				A5F32FC928FBDD4200B7D346 /* SceneDelegate.swift in Sources */,
+				A5F32FDB28FBE58B00B7D346 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +303,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
