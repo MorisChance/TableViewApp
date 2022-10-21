@@ -67,6 +67,13 @@ class TableViewController: UITableViewController {
         
         return cell
     }
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete{
+            taskArray.remove(at: indexPath.row)
+            UserDefaults.standard.set(taskArray, forKey: "add" )
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
     
     
     /*
